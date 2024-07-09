@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cbcfc21-ec2d-4bc6-9091-053fd0d21260" name="Changes" comment="avance en metodos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarActividadesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarClientesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarEntradasServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarOrganizadoresServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroActividadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroClienteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroEntradaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroOrganizadorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mostrarActividades.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mostrarClientes.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mostrarEntradas.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mostrarOrganizadores.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registroActividad.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registroCliente.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registroEntrada.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registroOrganizador.jsp" afterDir="false" />
+    <list default="true" id="4cbcfc21-ec2d-4bc6-9091-053fd0d21260" name="Changes" comment="clases hechas pero sin rellenar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarActividadesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarActividadesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarEntradasServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarEntradasServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarOrganizadoresServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/MostrarOrganizadoresServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroActividadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroActividadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroEntradaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tallerRecuperativo/controller/RegistroEntradaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -78,6 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "nico",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720550201990</updated>
-      <workItem from="1720550203067" duration="4510000" />
+      <workItem from="1720550203067" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="clases correspondientes, algunos paquetes y metodos">
       <option name="closed" value="true" />
@@ -152,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720554198587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="clases hechas pero sin rellenar.">
+      <option name="closed" value="true" />
+      <created>1720554849442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720554849442</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +162,7 @@
     <MESSAGE value="clases correspondientes, algunos paquetes y metodos" />
     <MESSAGE value="nuevos metodos correspondientes" />
     <MESSAGE value="avance en metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="avance en metodos" />
+    <MESSAGE value="clases hechas pero sin rellenar." />
+    <option name="LAST_COMMIT_MESSAGE" value="clases hechas pero sin rellenar." />
   </component>
 </project>
