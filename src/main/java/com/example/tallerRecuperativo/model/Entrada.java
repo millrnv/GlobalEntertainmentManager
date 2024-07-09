@@ -5,10 +5,15 @@ public class Entrada {
     private int id, disponibilidad;
     private String tipoEntrada;
     private double precio;
+    private Actividad actividad;
+    private Cliente cliente;
+
 
     //constructor
-    public Entrada(int id, String tipoEntrada, int disponibilidad, double precio) {
+    public Entrada(int id, Actividad actividad, Cliente cliente, String tipoEntrada, int disponibilidad, double precio) {
         this.id = id;
+        this.actividad = actividad;
+        this.cliente = cliente;
         this.tipoEntrada = tipoEntrada;
         this.disponibilidad = disponibilidad;
         this.precio = precio;
@@ -20,6 +25,22 @@ public class Entrada {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public Actividad getActividad() {
+        return actividad;
+    }
+
+    public void setActividad(Actividad actividad) {
+        this.actividad = actividad;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 
     public int getDisponibilidad() {
